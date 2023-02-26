@@ -1,8 +1,8 @@
 package com.example.data.network
 
-import com.example.data.model.DescriptionData
-import com.example.data.model.FlashSaleData
-import com.example.data.model.LatestData
+import com.example.data.network.model.DescriptionData
+import com.example.data.network.model.FlashSaleData
+import com.example.data.network.model.LatestData
 import com.example.data.network.retrofit.RetrofitInstance
 
 class NetworkImplementation: Network {
