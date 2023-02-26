@@ -1,17 +1,19 @@
 package com.example.data.network
 
+import com.example.data.model.DescriptionData
+import com.example.data.model.FlashSaleData
+import com.example.data.model.LatestData
+import com.example.data.network.retrofit.URL
 import retrofit2.http.GET
 
 interface ConnectionApi {
 
-    //TODO rename, update methods
+    @GET(URL.LatestEndPoint)
+    suspend fun getLatest(): List<LatestData>
 
-    @GET()
-    suspend fun getList()
+    @GET(URL.FlashEndPoint)
+    suspend fun getFlashSale(): List<FlashSaleData>
 
-    @GET()
-    suspend fun getList2()
-
-    @GET()
-    suspend fun getDsscription()
+    @GET(URL.DescriptionEndPoint)
+    suspend fun getDescription(): DescriptionData
 }

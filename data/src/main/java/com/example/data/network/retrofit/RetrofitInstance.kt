@@ -15,7 +15,7 @@ object RetrofitInstance {
     private val retrofit =
         Retrofit
             .Builder()
-            .baseUrl("")
+            .baseUrl(URL.BASE_URL)
             .addConverterFactory(MoshiConverterFactory.create(moshi))
             .build()
 
