@@ -12,7 +12,7 @@ interface Repository {
 
     suspend fun downloadDescription(): Description
 
-    suspend fun searchUser(name: String): User
+    suspend fun searchUser(name: String): User?
 
     suspend fun registerUser(user: User)
 }

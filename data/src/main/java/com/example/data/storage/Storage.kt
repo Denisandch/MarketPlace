@@ -6,6 +6,6 @@ interface Storage {
 
     suspend fun saveUser(userData: UserData)
 
-    suspend fun getUser(name: String): UserData
+    suspend fun getUser(name: String): UserData?
 
 }

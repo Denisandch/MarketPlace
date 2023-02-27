@@ -13,7 +13,7 @@ class StorageImplementation(
         userDao.saveUser(userData)
     }
 
-    override suspend fun getUser(name: String): UserData {
+    override suspend fun getUser(name: String): UserData? {
         return userDao.getUser(name)
     }
 }

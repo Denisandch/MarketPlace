@@ -25,8 +25,8 @@ class RepositoryImplementation(
         return network.downloadDescription().mapDataDescriptionToDomain()
     }
 
-    override suspend fun searchUser(name: String): User {
-        return storage.getUser(name).mapDataUserToDomain()
+    override suspend fun searchUser(name: String): User? {
+        return storage.getUser(name)?.mapDataUserToDomain()
     }
 
     override suspend fun registerUser(user: User) {
