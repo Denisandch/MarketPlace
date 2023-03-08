@@ -1,3 +1,37 @@
 <resources>
     <string name="app_name">MarketPlace</string>
+
+    <!-- Strings related to login -->
+    <!-- sign_in_page -->
+    <string name="sign_in">Sign in</string>
+    <string name="there_is_account">Already have an account?</string>
+    <string name="log_in_text_link">Log in</string>
+    <string name="sign_with_google">Sign in with Google</string>
+    <string name="sign_with_apple">Sign in with Apple</string>
+    <string name="sign_first_name_hint">First name</string>
+    <string name="last_name_hint">Last name</string>
+    <string name="email_name_hint">Email</string>
+
+    <!-- log_in_page -->
+    <string name="log_greeting">Welcome back</string>
+    <string name="log_in_button">Login</string>
+    <string name="log_first_name_hint">First name</string>
+    <string name="password_hint">Password</string>
+
+    <!-- Strings related to profile -->
+    <string name="profile_name">Profile</string>
+    <string name="change_photo">Change photo</string>
+    <string name="tools_user_name">Satria Adhi Pradana</string>
+    <string name="upload_item">Upload item</string>
+    <string name="trade_store">Trade store</string>
+    <string name="payment_method">Payment method</string>
+    <string name="balance">Balance</string>
+    <string name="trade_history">Trade history</string>
+    <string name="restore_purchase">Restore Purchase</string>
+    <string name="help">Help</string>
+    <string name="log_out">Log out</string>
+    <string name="tools_balance">$ 1593</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
