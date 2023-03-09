@@ -34,7 +34,7 @@
 
     <!-- Strings related to page1 -->
     <string name="toolbar1">Trade by</string>
-    <string name="toolbar2">bata</string>
+    <string name="toolbar2"> bata</string>
     <string name="spinner">Location</string>
     <string name="search_hint">What are you looking for?</string>
     <string name="view_all">View all</string>
