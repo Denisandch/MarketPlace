@@ -32,6 +32,22 @@
     <string name="log_out">Log out</string>
     <string name="tools_balance">$ 1593</string>
 
+    <!-- Strings related to page1 -->
+    <string name="toolbar1">Trade by</string>
+    <string name="toolbar2">bata</string>
+    <string name="spinner">Location</string>
+    <string name="search_hint">What are you looking for?</string>
+    <string name="view_all">View all</string>
+    <string name="Latest">Latest deals</string>
+    <string name="flash_sale">Flash sale</string>
+    <string name="brands">Brands</string>
+    <string name="phone_category">Phones</string>
+    <string name="headphone_category">Headphones</string>
+    <string name="game_category">Games</string>
+    <string name="car_category">Cars</string>
+    <string name="furniture_category">Furniture</string>
+    <string name="kid_category">kids</string>
+
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

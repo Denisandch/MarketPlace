@@ -54,8 +54,11 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginHorizontal="8dp"
+                android:paddingHorizontal="50dp"
                 android:text="@string/upload_item"
-                android:textAllCaps="false" />
+                android:textAllCaps="false"
+                app:icon="@drawable/ic_share"
+                app:iconGravity="start" />
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -66,6 +69,7 @@
                 <FrameLayout
                     android:layout_width="40dp"
                     android:layout_height="40dp"
+                    android:layout_marginEnd="4dp"
                     tools:background="@color/silver">
 
                     <ImageView
@@ -76,20 +80,17 @@
 
                 </FrameLayout>
 
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                <Button
+                    style="@style/Widget.MaterialComponents.Button.TextButton.Icon"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
                     android:layout_gravity="center"
-                    android:layout_marginStart="4dp"
-                    android:text="@string/trade_store" />
-
-                <ImageButton
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="center"
-                    android:layout_marginStart="164dp"
-                    android:background="@color/silver"
-                    android:src="@drawable/ic_navigate_next" />
+                    android:gravity="start"
+                    android:paddingHorizontal="0dp"
+                    android:text="@string/trade_store"
+                    android:textAllCaps="false"
+                    app:icon="@drawable/ic_navigate_next"
+                    app:iconGravity="end" />
 
             </LinearLayout>
 
@@ -102,6 +103,41 @@
                 <FrameLayout
                     android:layout_width="40dp"
                     android:layout_height="40dp"
+                    android:layout_marginEnd="4dp"
+                    tools:background="@color/silver">
+
+                    <ImageView
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/ic_credit_card" />
+
+                </FrameLayout>
+
+                <Button
+                    style="@style/Widget.MaterialComponents.Button.TextButton.Icon"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:gravity="start"
+                    android:paddingHorizontal="0dp"
+                    android:text="@string/payment_method"
+                    android:textAllCaps="false"
+                    app:icon="@drawable/ic_navigate_next"
+                    app:iconGravity="end" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:orientation="horizontal">
+
+                <FrameLayout
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_marginEnd="4dp"
                     tools:background="@color/silver">
 
                     <ImageView
@@ -114,20 +150,146 @@
 
                 <TextView
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:layout_height="match_parent"
                     android:layout_gravity="center"
-                    android:layout_marginStart="4dp"
-                    android:text="@string/trade_store" />
+                    android:gravity="center"
+                    android:text="@string/balance" />
 
-                <ImageButton
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="end"
+                    android:layout_marginStart="4dp"
+                    android:gravity="end|center"
+                    android:paddingEnd="12dp"
+                    android:text="@string/tools_balance" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:orientation="horizontal">
+
+                <FrameLayout
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_marginEnd="4dp"
+                    tools:background="@color/silver">
+
+                    <ImageView
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/ic_credit_card" />
+
+                </FrameLayout>
+
+                <Button
+                    style="@style/Widget.MaterialComponents.Button.TextButton.Icon"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:gravity="start"
+                    android:paddingHorizontal="0dp"
+                    android:text="@string/trade_history"
+                    android:textAllCaps="false"
+                    app:icon="@drawable/ic_navigate_next"
+                    app:iconGravity="end" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:orientation="horizontal">
+
+                <FrameLayout
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_marginEnd="4dp"
+                    tools:background="@color/silver">
+
+                    <ImageView
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/ic_refresh" />
+
+                </FrameLayout>
+
+                <Button
+                    style="@style/Widget.MaterialComponents.Button.TextButton.Icon"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:gravity="start"
+                    android:paddingHorizontal="0dp"
+                    android:text="@string/restore_purchase"
+                    android:textAllCaps="false"
+                    app:icon="@drawable/ic_navigate_next"
+                    app:iconGravity="end" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:orientation="horizontal">
+
+                <FrameLayout
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_marginEnd="4dp"
+                    tools:background="@color/silver">
+
+                    <ImageView
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/ic_help" />
+
+                </FrameLayout>
+
+                <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
-                    android:layout_marginStart="164dp"
-                    android:background="@color/silver"
-                    android:src="@drawable/ic_navigate_next" />
+                    android:text="@string/help" />
 
             </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:orientation="horizontal">
+
+                <FrameLayout
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_marginEnd="4dp"
+                    tools:background="@color/silver">
+
+                    <ImageView
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/ic_log_out" />
+
+                </FrameLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="@string/log_out" />
+
+            </LinearLayout>
+
 
         </LinearLayout>
 
