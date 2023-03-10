@@ -5,17 +5,29 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.navigation.fragment.findNavController
 import com.example.marketplace.R
+import com.example.marketplace.databinding.FragmentPage1Binding
+import com.google.android.material.bottomnavigation.BottomNavigationView
 
 
 class Page1Fragment : Fragment() {
 
+    private lateinit var binding: FragmentPage1Binding
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_page1, container, false)
+        binding = FragmentPage1Binding.inflate(layoutInflater,container,false)
+        return binding.root
     }
 
+    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
+        super.onViewCreated(view, savedInstanceState)
+
+        binding.avatarPage1.setOnClickListener {
+            val botNav = activity?.findViewById<BottomNavigationView>(R.id.bottom_navigation)
+            botNav?.selectedItemId = R.id.profile
+        }
+    }
 }
