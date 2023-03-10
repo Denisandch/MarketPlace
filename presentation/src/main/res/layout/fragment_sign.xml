@@ -14,6 +14,7 @@
         android:orientation="vertical">
 
         <TextView
+            style="@style/TextAppearance.MarketPlaceLogin.Title1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="128dp"
@@ -26,20 +27,37 @@
             android:orientation="vertical">
 
             <EditText
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content" />
-
-            <EditText
+                android:id="@+id/input_first_name_sign"
+                style="@style/Widget.MarketPlace.TextInputLayout"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="32dp" />
+                android:background="@drawable/shape_edit_text"
+                android:gravity="center"
+                android:hint="@string/log_first_name_hint" />
 
             <EditText
+                android:id="@+id/input_last_name_sign"
+                style="@style/Widget.MarketPlace.TextInputLayout"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="32dp" />
+                android:layout_marginTop="32dp"
+                android:background="@drawable/shape_edit_text"
+                android:gravity="center"
+                android:hint="@string/last_name_hint" />
+
+            <EditText
+                android:id="@+id/input_email_sign"
+                style="@style/Widget.MarketPlace.TextInputLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="32dp"
+                android:background="@drawable/shape_edit_text"
+                android:gravity="center"
+                android:hint="@string/email_name_hint" />
 
             <Button
+                android:id="@+id/button_sign_in_sign"
+                style="@style/Widget.MarketPlace.Button"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="32dp"
@@ -54,15 +72,19 @@
                 android:orientation="horizontal">
 
                 <TextView
+                    style="@style/Widget.MarketPlace.TextView.Caption"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/there_is_account" />
 
                 <TextView
+                    android:id="@+id/button_log_in_sign"
+                    style="@style/Widget.MarketPlace.TextView.Caption"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="4dp"
-                    android:text="@string/log_in_text_link" />
+                    android:text="@string/log_in_text_link"
+                    android:textColor="@color/light_purple" />
 
             </LinearLayout>
 
@@ -70,7 +92,7 @@
 
         <Button
             android:id="@+id/textButton"
-            style="@style/Widget.MaterialComponents.Button.TextButton.Icon"
+            style="@style/Widget.MarketPlace.Button.TextButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="start"
@@ -83,7 +105,7 @@
 
         <Button
             android:id="@+id/textButton2"
-            style="@style/Widget.MaterialComponents.Button.TextButton.Icon"
+            style="@style/Widget.MarketPlace.Button.TextButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="start"

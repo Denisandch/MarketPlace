@@ -34,7 +34,7 @@
 
     <!-- Strings related to page1 -->
     <string name="toolbar1">Trade by</string>
-    <string name="toolbar2"> bata</string>
+    <string name="toolbar2">bata</string>
     <string name="spinner">Location</string>
     <string name="search_hint">What are you looking for?</string>
     <string name="view_all">View all</string>
@@ -47,6 +47,13 @@
     <string name="car_category">Cars</string>
     <string name="furniture_category">Furniture</string>
     <string name="kid_category">kids</string>
+
+    <!-- Strings related to menu_bottom_navigation -->
+    <string name="home">home</string>
+    <string name="favorites">favorites</string>
+    <string name="cart">cart</string>
+    <string name="comments">comments</string>
+    <string name="profile">profile</string>
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>

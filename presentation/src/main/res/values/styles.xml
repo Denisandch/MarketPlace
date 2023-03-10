@@ -1,4 +1,109 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
+    <style name="Widget.MarketPlace.Button.TextButton" parent="Widget.MaterialComponents.Button.TextButton">
+        <item name="materialThemeOverlay">@style/ThemeOverlay.MarketPlace.Button.TextButton</item>
+        <item name="android:textAppearance">@style/TextAppearance.MarketPlace.Button</item>
+    </style>
+
+    <style name="Widget.MarketPlace.Button.TextButton.Profile" parent="Widget.MaterialComponents.Button.TextButton">
+        <item name="materialThemeOverlay">@style/ThemeOverlay.MarketPlace.Button.TextButton.Profile</item>
+        <item name="android:textAppearance">@style/TextAppearance.MarketPlace.Button.Profile</item>
+    </style>
+
+    <style name="Widget.MarketPlace.TextView.Caption" parent="Widget.MaterialComponents.TextView">
+        <item name="android:textAppearance">@style/TextAppearance.MarketPlaceLogin.Caption</item>
+    </style>
+
+    <style name="Widget.MarketPlace.TextView.Title1" parent="Widget.MaterialComponents.TextView">
+        <item name="android:textAppearance">@style/TextAppearance.MarketPlaceLogin.Title1</item>
+    </style>
+
+    <style name="Widget.MarketPlace.TextInputLayout" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+            <item name="android:textAppearance">@style/TextAppearance.MarketPlaceLogin.EditText</item>
+    </style>
+
+    <style name="Widget.MarketPlace.Button" parent="Widget.MaterialComponents.Button">
+        <item name="android:textAppearance">@style/TextAppearance.MarketPlaceLogin.Button</item>
+        <item name="shapeAppearance">@style/ShapeAppearance.MarketPlaceLogin.SmallComponent</item>
+        <item name="materialThemeOverlay">@style/ThemeOverlay.MarketPlace.Button</item>
+    </style>
+
+    <style name="ThemeOverlay.MarketPlace.Button.TextButton" parent="">
+        <item name="colorPrimary">@color/black</item>
+    </style>
+
+    <style name="ThemeOverlay.MarketPlace.Button.TextButton.Profile" parent="">
+        <item name="colorPrimary">@color/light_black</item>
+    </style>
+
+    <style name="ThemeOverlay.MarketPlace.Button" parent="">
+        <item name="colorPrimary">@color/purple</item>
+        <item name="colorOnPrimary">@color/light_gray</item>
+    </style>
+
+    <style name="TextAppearance.MarketPlace.Button" parent="">
+        <item name="fontFamily">@font/montserrat_medium</item>
+        <item name="android:fontFamily">@font/montserrat_medium</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="TextAppearance.MarketPlace.Button.Profile" parent="">
+        <item name="fontFamily">@font/montserrat</item>
+        <item name="android:fontFamily">@font/montserrat</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="TextAppearance.MarketPlaceLogin.Caption" parent="">
+        <item name="fontFamily">@font/montserrat_medium</item>
+        <item name="android:fontFamily">@font/montserrat_medium</item>
+        <item name="android:textSize">10sp</item>
+        <item name="android:textColor">@color/silver</item>
+    </style>
+
+    <style name="TextAppearance.MarketPlaceLogin.Title1" parent="">
+        <item name="fontFamily">@font/montserrat_medium</item>
+        <item name="android:fontFamily">@font/montserrat_semibold</item>
+        <item name="android:textSize">26sp</item>
+        <item name="android:textColor">@color/dark_blue</item>
+    </style>
+
+    <style name="TextAppearance.MarketPlaceLogin.Button" parent="">
+        <item name="fontFamily">@font/montserrat_bold</item>
+        <item name="android:fontFamily">@font/montserrat_bold</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="TextAppearance.MarketPlaceLogin.EditText" parent="">
+        <item name="fontFamily">@font/montserrat_medium</item>
+        <item name="android:fontFamily">@font/montserrat_medium</item>
+        <item name="android:textSize">11sp</item>
+    </style>
+
+    <style name="TextAppearance.MarketPlaceLogin.Subtitle3" parent="">
+        <item name="fontFamily">@font/poppins</item>
+        <item name="android:fontFamily">@font/poppins</item>
+        <item name="android:textSize">10sp</item>
+        <item name="color">#FFA6A7AB</item>
+    </style>
+
+    <style name="TextAppearance.MarketPlaceLogin.Caption.page1" parent="">
+        <item name="fontFamily">@font/poppins_medium</item>
+        <item name="android:fontFamily">@font/poppins_medium</item>
+        <item name="android:textSize">9sp</item>
+        <item name="android:textColor">@color/silver</item>
+    </style>
+
+    <style name="TextAppearance.MarketPlaceLogin.Title1.page1" parent="">
+        <item name="fontFamily">@font/poppins_medium</item>
+        <item name="android:fontFamily">@font/poppins_medium</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">#FF040402</item>
+    </style>
+
+    <style name="ShapeAppearance.MarketPlaceLogin.SmallComponent" parent="ShapeAppearance.MaterialComponents.SmallComponent">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">15dp</item>
+    </style>
+
 </resources>

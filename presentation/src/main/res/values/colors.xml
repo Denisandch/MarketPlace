@@ -8,9 +8,12 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
 
+
     <color name="gray_white">#FFFAF9FF</color>
     <color name="light_gray">#FFE8E8E8</color>
+    <color name="gray">#FFEEEFF4</color>
     <color name="dark_blue">#FF161826</color>
+    <color name="light_black">#FF040402</color>
     <color name="purple">#FF4E55D7</color>
     <color name="light_purple">#FF254FE6</color>
     <color name="gray_purple">#FF737297</color>
